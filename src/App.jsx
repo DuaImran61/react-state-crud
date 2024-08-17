@@ -67,6 +67,9 @@ function App() {
 
   return (
     <div className="App">
+      <h1>REACT CRDU APP</h1>
+
+
       <div className="formDiv">
         <input type="text" value={name} placeholder='Enter your name' onChange={(e) => { setName(e.target.value) }} />
         <input type="text" value={age} placeholder='Enter your age' onChange={(e) => { setAge(e.target.value) }} />
